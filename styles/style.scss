@@ -155,7 +155,7 @@ main {
         padding: $space-content*2 5% 200px;
         background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
         clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 5%);
-        h2 {
+        h3 {
             padding: $space-content 0;
             font-family: $font-famyly-plex-sans;
             font-size: 36px;
@@ -202,7 +202,7 @@ main {
             article {
                 padding: 0 5%;
                 z-index: 1;
-                h2 {
+                h3 {
                     font-family: $font-famyly-plex-mono;
                     font-size: 36px;
                     color: #060a24;
@@ -225,7 +225,7 @@ main {
     }
     .entrevistas {
         padding-top: $space-content;
-        h2 {
+        h3 {
             padding: 0 5%;
             font-family: $font-famyly-plex-sans;
             font-size: 36px;
@@ -255,7 +255,7 @@ main {
     }
     .topicos {
         padding: $space-content 0 $space-content;
-        h2 {
+        h3 {
             padding: 0 5%;
             font-family: $font-famyly-plex-sans;
             font-size: 36px;
@@ -306,7 +306,7 @@ footer {
         padding: $space-content*2 5% $space-content*2;
         background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
         clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 10%);
-        h2 {
+        h3 {
             font-family: $font-famyly-plex-sans;
             font-size: 36px;
             color: #ffffff;
@@ -428,7 +428,7 @@ footer {
         .episodios {
             padding: 10% 5% 15%;
             clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 15%);
-            h2 {
+            h3 {
                 padding: $space-content*2 5%;
                 font-size: 48px;
                 color: #ffffff;
@@ -457,7 +457,7 @@ footer {
                 }
                 article {
                     width: 45%;
-                    h2 {
+                    h3 {
                         font-size: 48px;
                         padding-right: 0;
                         padding-bottom: 24px;
@@ -474,7 +474,7 @@ footer {
             }
         }
         .entrevistas {
-            h2 {
+            h3 {
                 padding: $space-content*2 10% 0;
                 font-size: 48px;
                 .secondLine {
@@ -500,7 +500,7 @@ footer {
         .topicos {
             padding: $space-content*3 10% 0;
             //margin: 0 200px;
-            h2 {
+            h3 {
                 font-size: 48px;
                 .secondLine {
                     display: inline;
@@ -542,7 +542,7 @@ footer {
         .backEpisodios {
             padding: 10% 10% 5%;
             clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 35%);
-            h2 {
+            h3 {
                 font-size: 48px;
                 .secondLine {
                     display: inline;
