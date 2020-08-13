@@ -185,7 +185,7 @@ main .episodios {
           clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 5%);
 }
 
-main .episodios h2 {
+main .episodios h3 {
   padding: 22px 0;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
@@ -248,7 +248,7 @@ main .nosotros .move article {
   z-index: 1;
 }
 
-main .nosotros .move article h2 {
+main .nosotros .move article h3 {
   font-family: "IBM Plex Mono", monospace;
   font-size: 36px;
   color: #060a24;
@@ -256,7 +256,7 @@ main .nosotros .move article h2 {
   line-height: 42px;
 }
 
-main .nosotros .move article h2 .secondLine {
+main .nosotros .move article h3 .secondLine {
   display: inline-block;
   width: 100%;
 }
@@ -273,7 +273,7 @@ main .entrevistas {
   padding-top: 22px;
 }
 
-main .entrevistas h2 {
+main .entrevistas h3 {
   padding: 0 5%;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
@@ -282,7 +282,7 @@ main .entrevistas h2 {
   line-height: 42px;
 }
 
-main .entrevistas h2 .secondLine {
+main .entrevistas h3 .secondLine {
   display: inline-block;
   width: 100%;
 }
@@ -309,7 +309,7 @@ main .topicos {
   padding: 22px 0 22px;
 }
 
-main .topicos h2 {
+main .topicos h3 {
   padding: 0 5%;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
@@ -318,7 +318,7 @@ main .topicos h2 {
   line-height: 42px;
 }
 
-main .topicos h2 .secondLine {
+main .topicos h3 .secondLine {
   display: inline-block;
   width: 100%;
 }
@@ -374,7 +374,7 @@ footer .backEpisodios {
           clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 10%);
 }
 
-footer .backEpisodios h2 {
+footer .backEpisodios h3 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
   color: #ffffff;
@@ -383,7 +383,7 @@ footer .backEpisodios h2 {
   line-height: 42px;
 }
 
-footer .backEpisodios h2 .secondLine {
+footer .backEpisodios h3 .secondLine {
   display: inline-block;
   width: 100%;
 }
@@ -514,7 +514,7 @@ footer .footerInfo .socialInfo ul li a {
     -webkit-clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 15%);
             clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 15%);
   }
-  main .episodios h2 {
+  main .episodios h3 {
     padding: 44px 5%;
     font-size: 48px;
     color: #ffffff;
@@ -552,12 +552,12 @@ footer .footerInfo .socialInfo ul li a {
   main .nosotros .move article {
     width: 45%;
   }
-  main .nosotros .move article h2 {
+  main .nosotros .move article h3 {
     font-size: 48px;
     padding-right: 0;
     padding-bottom: 24px;
   }
-  main .nosotros .move article h2 .secondLine {
+  main .nosotros .move article h3 .secondLine {
     display: inline;
   }
   main .nosotros .move article p {
@@ -565,11 +565,11 @@ footer .footerInfo .socialInfo ul li a {
     color: #060a24;
     line-height: 24px;
   }
-  main .entrevistas h2 {
+  main .entrevistas h3 {
     padding: 44px 10% 0;
     font-size: 48px;
   }
-  main .entrevistas h2 .secondLine {
+  main .entrevistas h3 .secondLine {
     display: inline;
   }
   main .entrevistas .entrevistasGrid {
@@ -591,10 +591,10 @@ footer .footerInfo .socialInfo ul li a {
   main .topicos {
     padding: 66px 10% 0;
   }
-  main .topicos h2 {
+  main .topicos h3 {
     font-size: 48px;
   }
-  main .topicos h2 .secondLine {
+  main .topicos h3 .secondLine {
     display: inline;
   }
   main .topicos .topicosFlex {
@@ -643,10 +643,10 @@ footer .footerInfo .socialInfo ul li a {
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 35%);
             clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 35%);
   }
-  footer .backEpisodios h2 {
+  footer .backEpisodios h3 {
     font-size: 48px;
   }
-  footer .backEpisodios h2 .secondLine {
+  footer .backEpisodios h3 .secondLine {
     display: inline;
   }
   footer .backEpisodios input {
