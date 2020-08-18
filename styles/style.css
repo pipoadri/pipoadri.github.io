@@ -96,6 +96,7 @@ header .menu .bar nav ul li a {
   padding: 0px 20px;
   text-decoration: none;
   font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
   font-size: 16px;
   color: #fff;
   letter-spacing: 0;
@@ -154,22 +155,36 @@ header .tit p {
   margin-top: 20px;
 }
 
-header .tit input {
+header .tit .boton {
   width: 100%;
   height: 48px;
+  background: #00f3bb;
+  border: none;
+  margin-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .tit .boton a {
+  display: block;
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #060a24;
   letter-spacing: 0;
   text-align: center;
   line-height: 22px;
-  background: #00f3bb;
-  border: none;
-  margin-top: 36px;
+  text-decoration: none;
 }
 
-header .tit input:hover {
+header .tit .boton:hover {
   color: #ffffff;
   background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
 }
@@ -188,6 +203,7 @@ main .episodios {
 main .episodios h3 {
   padding: 22px 0;
   font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
   font-size: 36px;
   color: #ffffff;
   letter-spacing: 0;
@@ -217,6 +233,7 @@ main .episodios .podcastGrid .podcast iframe {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  border: none;
 }
 
 main .nosotros .move {
@@ -249,7 +266,8 @@ main .nosotros .move article {
 }
 
 main .nosotros .move article h3 {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
   font-size: 36px;
   color: #060a24;
   letter-spacing: 0;
@@ -263,6 +281,7 @@ main .nosotros .move article h3 .secondLine {
 
 main .nosotros .move article p {
   font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
   font-size: 14px;
   color: #060a24;
   letter-spacing: 0;
@@ -276,6 +295,7 @@ main .entrevistas {
 main .entrevistas h3 {
   padding: 0 5%;
   font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
   font-size: 36px;
   color: #060a24;
   letter-spacing: 0;
@@ -312,6 +332,7 @@ main .topicos {
 main .topicos h3 {
   padding: 0 5%;
   font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
   font-size: 36px;
   color: #060a24;
   letter-spacing: 0;
@@ -376,6 +397,7 @@ footer .backEpisodios {
 
 footer .backEpisodios h3 {
   font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
   font-size: 36px;
   color: #ffffff;
   letter-spacing: 0;
@@ -388,23 +410,36 @@ footer .backEpisodios h3 .secondLine {
   width: 100%;
 }
 
-footer .backEpisodios input {
+footer .backEpisodios .boton {
   width: 100%;
   height: 48px;
-  display: block;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 18px;
-  font-weight: 500;
-  color: #060a24;
-  letter-spacing: 0;
-  text-align: center;
-  line-height: 24px;
   background: #00f3bb;
   border: none;
   margin-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-footer .backEpisodios input:hover {
+footer .backEpisodios .boton a {
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+footer .backEpisodios .boton:hover {
   color: #ffffff;
   background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
 }
@@ -429,6 +464,7 @@ footer .footerInfo {
 footer .footerInfo .textInfo {
   width: 100%;
   font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
   font-size: 14px;
   color: #060a24;
   letter-spacing: 0;
@@ -502,7 +538,7 @@ footer .footerInfo .socialInfo ul li a {
     line-height: 24px;
     width: 628px;
   }
-  header .tit input {
+  header .tit .boton {
     width: 226px;
     margin-top: 56px;
   }
@@ -649,12 +685,14 @@ footer .footerInfo .socialInfo ul li a {
   footer .backEpisodios h3 .secondLine {
     display: inline;
   }
-  footer .backEpisodios input {
+  footer .backEpisodios .boton {
     width: 345px;
     height: 48px;
     margin-left: auto;
     margin-right: auto;
     float: none;
+    font-size: 18px;
+    line-height: 24px;
   }
   footer .footerInfo {
     padding: 2% 5%;
